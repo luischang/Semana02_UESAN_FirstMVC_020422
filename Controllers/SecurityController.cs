@@ -6,6 +6,7 @@ namespace Semana02_UESAN_FirstMVC.Controllers
     {
         public IActionResult Login()
         {
+            ViewData["WelcomeMessage"] = "Bienvenido a la página de inicio de sesión";
             return View();
         }
     }
